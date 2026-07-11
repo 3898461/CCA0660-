@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌐 CCA0660 窄体机环球飞行全景总结报告</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans SC', 'JetBrains Mono', sans-serif;
+            background-color: #0b0f19;
+            color: #e2e8f0;
+        }
+
+        /* 科技感霓虹呼吸灯特效 */
+        .neon-glow {
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+        
+        .neon-text-cyan {
+            text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+        }
+
+        .neon-text-amber {
+            text-shadow: 0 0 8px rgba(245, 158, 11, 0.6);
+        }
+
+        /* 自定义滚动条 */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0b0f19;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #38bdf8;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 min-h-screen flex flex-col items-center">
+
+    <div class="max-w-6xl w-full bg-[#111827]/80 backdrop-blur-md rounded-2xl p-6 md:p-10 neon-glow transition-all duration-500 hover:box-shadow-[0_0_25px_rgba(56,189,248,0.3)]">
+        
+        <header class="border-b border-slate-700/60 pb-6 mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+                <div class="text-xs font-mono text-sky-400 tracking-widest uppercase mb-1">// GLOBAL FLIGHT LOG REPORT</div>
+                <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
+                    <span class="animate-pulse">🌐</span> CCA0660 窄体机环球飞行全景总结报告
+                </h1>
+            </div>
+            <div class="flex flex-wrap gap-3 font-mono text-xs">
+                <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
+                    <span class="text-slate-400">COMMANDER:</span> <span class="text-white font-semibold">0660</span>
+                </div>
+                <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
+                    <span class="text-slate-400">CALLSIGN:</span> <span class="text-sky-400 font-semibold neon-text-cyan">CCA0660</span>
+                </div>
+                <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
+                    <span class="text-slate-400">FLEET:</span> <span class="text-white">B737-800 (B-O66O)</span>
+                </div>
+                <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
+                    <span class="text-slate-400">PERIOD:</span> <span class="text-amber-400">30 DAYS</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="mb-8">
+            <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
+                <span class="text-sky-400">01 /</span> 📊 数据复盘与技术高光
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                <div class="bg-gradient-to-br from-slate-900 to-slate-800/50 p-5 rounded-xl border border-slate-700/50">
+                    <div class="text-amber-400 font-semibold mb-3 flex items-center gap-1.5">
+                        <span>🏅</span> 最佳黄油着陆（Top 4 Landings）
+                    </div>
+                    <ul class="space-y-2.5 text-sm font-mono">
+                        <li class="flex justify-between items-center bg-slate-950/40 p-2 rounded">
+                            <span>🥇 <span class="text-white">CYYT → BGKK</span> <span class="text-slate-500 text-xs">(库卢苏克)</span></span>
+                            <span class="text-emerald-400 font-bold neon-text-cyan">-53 FPM</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-slate-950/40 p-2 rounded">
+                            <span>🥈 <span class="text-white">ZUTF → ZJSY</span> <span class="text-slate-500 text-xs">(三亚凤凰)</span></span>
+                            <span class="text-emerald-400 font-bold">-68 FPM</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-slate-950/40 p-2 rounded">
+                            <span>🥉 <span class="text-white">YPAD → YSSY</span> <span class="text-slate-500 text-xs">(悉尼)</span></span>
+                            <span class="text-emerald-400 font-bold">-72 FPM</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-sky-950/20 border border-sky-900/40 p-2 rounded">
+                            <span>✨ <span class="text-sky-300 font-semibold">VTCC → ZUCK</span> <span class="text-slate-400 text-xs">(重庆江北)</span></span>
+                            <span class="text-sky-400 font-bold neon-text-cyan">-88 FPM</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gradient-to-br from-slate-900 to-slate-800/50 p-5 rounded-xl border border-slate-700/50">
+                    <div class="text-rose-400 font-semibold mb-3 flex items-center gap-1.5">
+                        <span>☠️</span> 极限硬核考场操纵复盘 (SOP Compliance)
+                    </div>
+                    <div class="space-y-3 text-xs">
+                        <div class="bg-slate-950/40 p-2.5 rounded border-l-2 border-rose-500">
+                            <div class="flex justify-between text-white font-mono mb-1">
+                                <span>达尔文 → 艾尔斯岩 (YPDN-YAYE)</span>
+                                <span class="text-rose-400 font-bold">-518 FPM</span>
+                            </div>
+                            <p class="text-slate-400">内陆荒漠低空严重风切变。<b>符合波音SOP规范</b>：果断破坏气流接地坚决不飘飞，完美规避冲出跑道风险。</p>
+                        </div>
+                        <div class="bg-slate-950/40 p-2.5 rounded border-l-2 border-amber-500">
+                            <div class="flex justify-between text-white font-mono mb-1">
+                                <span>悉尼 → 惠灵顿 (YSSY-NZWN)</span>
+                                <span class="text-amber-400 font-bold">-347 FPM</span>
+                            </div>
+                            <p class="text-slate-400">风霸机场临海强劲侧风。采用大下降率“一脚踩实”，有效防止窄体机在湿滑跑道产生水滑。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
+                <span class="text-sky-400">02 /</span> 🗺️ 环球全景轨迹动态沙盘
+            </h2>
+            <div class="bg-gradient-to-b from-slate-900 via-slate-900/70 to-slate-950/40 p-5 rounded-xl border border-slate-800 flex flex-col lg:flex-row gap-6 items-center">
+                
+                <div class="w-full lg:w-2/5 space-y-4 text-sm leading-relaxed text-slate-300">
+                    <div class="border-l-2 border-sky-500 pl-3">
+                        <span class="font-mono text-xs text-sky-400 font-bold block mb-1">TRACK CONFIGURATION</span>
+                        <p class="font-bold text-white text-base">全球不间断无缝跃飞流线图</p>
+                    </div>
+                    <p>
+                        右侧图表完整记录了 <span class="text-sky-400 font-mono">CCA0660</span> 从重庆江北（ZUCK）出发，自西向东贯穿东南亚、跨越澳洲荒漠、深入南太平洋群岛，并沿经典窄体机北大西洋轮渡线折返欧洲与中东的<b>完整闭环轨迹</b>。
+                    </p>
+                    <p class="bg-slate-950/50 p-3 rounded border border-slate-800 text-xs text-slate-400 font-sans">
+                        💡 <span class="text-amber-400 font-semibold">签派细节提示：</span>观察密集的南太平洋节点，在奥克兰到汤加这一高难度跨度上，通过引入独特的孤岛中转逻辑，成功将原本耗时近3小时的疲劳跨洋，分拆解构为两条仅耗时1小时出头的黄金精致跳岛链。
+                    </p>
+                </div>
+
+                <div class="w-full lg:w-3/5 overflow-hidden rounded-lg border border-slate-700/50 bg-slate-950 p-2 group transition-all duration-300 hover:border-sky-500/50">
+                    <img 
+                        src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711181422.png?7jLlGDTn4O" 
+                        alt="CCA0660 Global Route Track" 
+                        class="w-full h-auto rounded transition-transform duration-500 group-hover:scale-[1.015] select-none"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
+                <span class="text-sky-400">03 /</span> 📋 环球航段荣誉全景明细
+            </h2>
+            
+            <div class="overflow-x-auto rounded-xl border border-slate-700/50 bg-slate-900/30">
+                <table class="w-full text-left border-collapse min-w-[800px]">
+                    <thead>
+                        <tr class="bg-slate-800/70 border-b border-slate-700 font-mono text-xs text-slate-400 tracking-wider">
+                            <th class="p-3.5 text-center w-16">序号</th>
+                            <th class="p-3.5">出发地 (DEP)</th>
+                            <th class="p-3.5">目的地 (ARR)</th>
+                            <th class="p-3.5 text-right">接地率 (FPM)</th>
+                            <th class="p-3.5 text-center">过载 (G)</th>
+                            <th class="p-3.5 pl-6">👨‍✈️ 落地操纵技术评述 (Rich Text Summary)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm divide-y divide-slate-800/60 font-mono">
+                        
+                        <tr class="bg-sky-950/20 hover:bg-sky-950/30 transition-colors">
+                            <td class="p-3.5 text-center font-bold text-sky-400">#32</td>
+                            <td class="p-3.5 font-sans"><span class="text-white font-semibold">VTCC</span> <span class="text-slate-400 text-xs">清迈</span></td>
+                            <td class="p-3.5 font-sans"><span class="text-sky-400 font-bold">ZUCK</span> <span class="text-sky-300 text-xs">重庆江北</span></td>
+                            <td class="p-3.5 text-right font-bold text-sky-400 neon-text-cyan">-88</td>
+                            <td class="p-3.5 text-center text-sky-300">1.10</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-200">
+                                🏁 <span class="bg-sky-500/20 text-sky-300 text-xs px-1.5 py-0.5 rounded font-mono mr-1">FINAL</span> <b>完美谢幕</b>：跨越云贵高原大雾，熟悉的主场三跑道。在高度紧张的终点线上，以绝妙的软着陆为整趟史诗航线画上完美句号！
+                            </td>
+                        </tr>
+
+                        <tr class="bg-emerald-950/10 hover:bg-slate-800/30 transition-colors">
+                            <td class="p-3.5 text-center text-slate-400">#23</td>
+                            <td class="p-3.5 font-sans"><span class="text-white font-semibold">CYYT</span> <span class="text-slate-400 text-xs">圣约翰斯</span></td>
+                            <td class="p-3.5 font-sans"><span class="text-white font-semibold">BGKK</span> <span class="text-emerald-400 text-xs">库卢苏克</span></td>
+                            <td class="p-3.5 text-right font-bold text-emerald-400 neon-text-cyan">-53</td>
+                            <td class="p-3.5 text-center text-slate-300">1.30</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-300">
+                                🏆 <span class="bg-emerald-500/20 text-emerald-300 text-xs px-1.5 py-0.5 rounded font-mono mr-1">TOP ONE</span> <b>巅峰封神之落</b>：5个半小时窄体机跨洋，面对格陵兰无精密引导的极限悬崖峡湾跑道，顶住低空乱流盲切出全场最轻接地！
+                            </td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#01</td>
+                            <td class="p-3.5 font-sans">ZUCK <span class="text-slate-500 text-xs">重庆江北</span></td>
+                            <td class="p-3.5 font-sans">ZUTF <span class="text-slate-500 text-xs">成都天府</span></td>
+                            <td class="p-3.5 text-right">-181</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400"><b>中规中矩</b>：首航平稳，标准下滑线建立，轻微拉平修正，扎实落地。</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#02</td>
+                            <td class="p-3.5 font-sans">ZUTF <span class="text-slate-500 text-xs">成都天府</span></td>
+                            <td class="p-3.5 font-sans">ZJSY <span class="text-slate-500 text-xs">三亚凤凰</span></td>
+                            <td class="p-3.5 text-right text-emerald-400 font-semibold">-68</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400">✨ <b>丝滑黄油</b>：进近气流极佳，决断高后精准控制拉平段，轻触地盘。</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#07</td>
+                            <td class="p-3.5 font-sans">YPDN <span class="text-slate-500 text-xs">达尔文</span></td>
+                            <td class="p-3.5 font-sans">YAYE <span class="text-slate-500 text-xs">艾尔斯岩</span></td>
+                            <td class="p-3.5 text-right text-rose-400 font-semibold">-518</td>
+                            <td class="p-3.5 text-center">1.40</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-300">
+                                🚨 <span class="text-rose-400 font-bold">风切变强着陆</span>：坚决不追求黄油而引发飘飞，果断砸向跑道确保减速安全。
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#09</td>
+                            <td class="p-3.5 font-sans">YPAD <span class="text-slate-500 text-xs">阿德莱德</span></td>
+                            <td class="p-3.5 font-sans">YSSY <span class="text-slate-500 text-xs">悉尼</span></td>
+                            <td class="p-3.5 text-right text-emerald-400 font-semibold">-72</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400">✨ <b>经典黄油</b>：五边目视控速极其细腻，海港桥干扰下高度专注。</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#10</td>
+                            <td class="p-3.5 font-sans">YSSY <span class="text-slate-500 text-xs">悉尼</span></td>
+                            <td class="p-3.5 font-sans">NZWN <span class="text-slate-500 text-xs">惠灵顿</span></td>
+                            <td class="p-3.5 text-right text-amber-500">-347</td>
+                            <td class="p-3.5 text-center">1.50</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400">💨 <b>扎实抗风</b>：风霸跑道流场错综复杂，大下降率果断踩实，严防水滑。</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#22</td>
+                            <td class="p-3.5 font-sans">KJFK <span class="text-slate-500 text-xs">纽约肯尼迪</span></td>
+                            <td class="p-3.5 font-sans">CYYT <span class="text-slate-500 text-xs">圣约翰斯</span></td>
+                            <td class="p-3.5 text-right text-emerald-400 font-semibold">-89</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400">✨ <b>极佳黄油</b>：多云低能见度天气顺利切出，拉平手法极其柔和。</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#28</td>
+                            <td class="p-3.5 font-sans">LTAI <span class="text-slate-500 text-xs">安塔利亚</span></td>
+                            <td class="p-3.5 font-sans">OMDB <span class="text-slate-500 text-xs">迪拜</span></td>
+                            <td class="p-3.5 text-right">-112</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400"><b>低能见度稳落</b>：ILS截获极其完美，决断高度后冲破沙尘顺利靠陆。</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#29</td>
+                            <td class="p-3.5 font-sans">OMDB <span class="text-slate-500 text-xs">迪拜</span></td>
+                            <td class="p-3.5 font-sans">OOMS <span class="text-slate-500 text-xs">马斯喀特</span></td>
+                            <td class="p-3.5 text-right text-amber-500">-321</td>
+                            <td class="p-3.5 text-center">1.30</td>
+                            <td class="p-3.5 pl-6 font-sans text-slate-400"><b>节奏脱节</b>：40分钟短途跃飞仓促，下滑率未能在拉平段有效收住。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="text-right text-xs text-slate-500 font-mono mt-2">* 提示：此表仅抽样归档核心高光及硬核复盘航段。</div>
+        </section>
+
+        <footer class="bg-slate-900/60 p-4 md:p-6 rounded-xl border border-slate-800 text-center relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-1 text-[8px] font-mono text-slate-700 select-none">SYSTEM_STATUS: DEACTIVATED</div>
+            <p class="text-sm text-slate-300 font-sans leading-relaxed">
+                这是一次将 <span class="text-sky-400 font-semibold">极客精神</span> 与 <span class="text-amber-400 font-semibold">硬核手操操纵技术</span> 完美融合的全球大满贯航线。在完全依赖单架窄体客机的情况下，0660 机长凭借精密复杂的飞行签派以及极高上限的五边操纵底蕴，顺利征服大洋阻隔与极地风暴。
+            </p>
+            <div class="mt-4 font-mono text-xs text-sky-400/80 uppercase tracking-widest neon-text-cyan">
+                —— CCA0660 环球机组正式解散 · 荣耀凯旋归巢 ——
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
