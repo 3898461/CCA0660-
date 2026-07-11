@@ -27,60 +27,44 @@
         .neon-text-amber {
             text-shadow: 0 0 8px rgba(245, 158, 11, 0.6);
         }
-
-        /* 自定义滚动条 */
-        ::-webkit-scrollbar {
-            width: 6px;
-            height: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #0b0f19;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #1e293b;
-            border-radius: 3px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #38bdf8;
-        }
     </style>
 </head>
 <body class="p-4 md:p-8 min-h-screen flex flex-col items-center">
 
-    <div class="max-w-6xl w-full bg-[#111827]/80 backdrop-blur-md rounded-2xl p-6 md:p-10 neon-glow transition-all duration-500 hover:box-shadow-[0_0_25px_rgba(56,189,248,0.3)]">
+    <div class="max-w-7xl w-full bg-[#111827]/80 backdrop-blur-md rounded-2xl p-6 md:p-10 neon-glow transition-all duration-500 hover:shadow-[0_0_25px_rgba(56,189,248,0.3)]">
         
-        <header class="border-b border-slate-700/60 pb-6 mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <header class="border-b border-slate-700/60 pb-6 mb-8 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
             <div>
-                <div class="text-xs font-mono text-sky-400 tracking-widest uppercase mb-1">// GLOBAL FLIGHT LOG REPORT</div>
+                <div class="text-xs font-mono text-sky-400 tracking-widest uppercase mb-1">🛫 // GLOBAL FLIGHT LOG INTERACTIVE REPORT</div>
                 <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
-                    <span class="animate-pulse">🌐</span> CCA0660 窄体机环球飞行全景总结报告
+                    <span class="animate-pulse">✨</span> CCA0660 ⚖️ 窄体机史诗级环球飞行全景总结报告
                 </h1>
             </div>
             <div class="flex flex-wrap gap-3 font-mono text-xs">
                 <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
-                    <span class="text-slate-400">COMMANDER:</span> <span class="text-white font-semibold">0660</span>
+                    <span class="text-slate-400">👨‍✈️ COMMANDER:</span> <span class="text-white font-semibold">0660</span>
                 </div>
                 <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
-                    <span class="text-slate-400">CALLSIGN:</span> <span class="text-sky-400 font-semibold neon-text-cyan">CCA0660</span>
+                    <span class="text-slate-400">📡 CALLSIGN:</span> <span class="text-sky-400 font-semibold neon-text-cyan">CCA0660</span>
                 </div>
                 <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
-                    <span class="text-slate-400">FLEET:</span> <span class="text-white">B737-800 (B-O66O)</span>
+                    <span class="text-slate-400">✈️ FLEETS:</span> <span class="text-white">B738 (B-A66A & B-O66O)</span>
                 </div>
                 <div class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
-                    <span class="text-slate-400">PERIOD:</span> <span class="text-amber-400">30 DAYS</span>
+                    <span class="text-slate-400">⏱️ SECTOR:</span> <span class="text-amber-400 font-bold">32 STAGES</span>
                 </div>
             </div>
         </header>
 
         <section class="mb-8">
             <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
-                <span class="text-sky-400">01 /</span> 📊 数据复盘与技术高光
+                <span class="text-sky-400">01 /</span> 📊 环球核心数据复盘与技术高光
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 
                 <div class="bg-gradient-to-br from-slate-900 to-slate-800/50 p-5 rounded-xl border border-slate-700/50">
-                    <div class="text-amber-400 font-semibold mb-3 flex items-center gap-1.5">
-                        <span>🏅</span> 最佳黄油着陆（Top 4 Landings）
+                    <div class="text-emerald-400 font-semibold mb-3 flex items-center gap-1.5">
+                        <span>🥞</span> 殿堂级黄油着陆（Top 5 Landings）
                     </div>
                     <ul class="space-y-2.5 text-sm font-mono">
                         <li class="flex justify-between items-center bg-slate-950/40 p-2 rounded">
@@ -95,32 +79,48 @@
                             <span>🥉 <span class="text-white">YPAD → YSSY</span> <span class="text-slate-500 text-xs">(悉尼)</span></span>
                             <span class="text-emerald-400 font-bold">-72 FPM</span>
                         </li>
-                        <li class="flex justify-between items-center bg-sky-950/20 border border-sky-900/40 p-2 rounded">
-                            <span>✨ <span class="text-sky-300 font-semibold">VTCC → ZUCK</span> <span class="text-slate-400 text-xs">(重庆江北)</span></span>
-                            <span class="text-sky-400 font-bold neon-text-cyan">-88 FPM</span>
+                        <li class="flex justify-between items-center bg-slate-950/40 p-2 rounded">
+                            <span>✨ <span class="text-white">VTCC → ZUCK</span> <span class="text-slate-500 text-xs">(重庆主场)</span></span>
+                            <span class="text-sky-400 font-bold">-88 FPM</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-slate-950/40 p-2 rounded">
+                            <span>✨ <span class="text-white font-semibold">KJFK → CYYT</span> <span class="text-slate-500 text-xs">(圣约翰斯)</span></span>
+                            <span class="text-emerald-400 font-bold">-89 FPM</span>
                         </li>
                     </ul>
                 </div>
 
                 <div class="bg-gradient-to-br from-slate-900 to-slate-800/50 p-5 rounded-xl border border-slate-700/50">
                     <div class="text-rose-400 font-semibold mb-3 flex items-center gap-1.5">
-                        <span>☠️</span> 极限硬核考场操纵复盘 (SOP Compliance)
+                        <span>🌪️</span> 极限气象操纵复盘 (SOP Compliance)
                     </div>
-                    <div class="space-y-3 text-xs">
+                    <div class="space-y-2 text-xs">
                         <div class="bg-slate-950/40 p-2.5 rounded border-l-2 border-rose-500">
                             <div class="flex justify-between text-white font-mono mb-1">
-                                <span>达尔文 → 艾尔斯岩 (YPDN-YAYE)</span>
+                                <span>达尔文 → 艾尔斯岩 (YAYE)</span>
                                 <span class="text-rose-400 font-bold">-518 FPM</span>
                             </div>
-                            <p class="text-slate-400">内陆荒漠低空严重风切变。<b>符合波音SOP规范</b>：果断破坏气流接地坚决不飘飞，完美规避冲出跑道风险。</p>
+                            <p class="text-slate-400">内陆荒漠极低空强剪切风。<b>符合波音标准SOP</b>：绝不盲目追求飘飞，果断破坏气流一次砸实，完美避免冲出短跑道！</p>
                         </div>
                         <div class="bg-slate-950/40 p-2.5 rounded border-l-2 border-amber-500">
                             <div class="flex justify-between text-white font-mono mb-1">
-                                <span>悉尼 → 惠灵顿 (YSSY-NZWN)</span>
+                                <span>悉尼 → 惠灵顿 (NZWN)</span>
                                 <span class="text-amber-400 font-bold">-347 FPM</span>
                             </div>
-                            <p class="text-slate-400">风霸机场临海强劲侧风。采用大下降率“一脚踩实”，有效防止窄体机在湿滑跑道产生水滑。</p>
+                            <p class="text-slate-400">著名的南半球“风霸机场”，海风强劲且不稳定。大下降率扎实靠陆，死死咬住中线，防止湿滑跑道产生水滑。</p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-slate-900 to-slate-800/50 p-5 rounded-xl border border-slate-700/50 md:col-span-2 lg:col-span-1">
+                    <div class="text-sky-400 font-semibold mb-2 flex items-center gap-1.5">
+                        <span>🛠️</span> 双航司/双机身战术签派
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed font-sans">
+                        本次任务在宏观上分为两大核心阶段。前12个航段采用 <b>东航机队 (CES6666 / B-A66A)</b>，自中国西南重镇出击，经东南亚沿澳洲西海岸完成深度探索；后20个航段无缝切换至 <b>国航机队 (CHH6666 / B-O66O)</b>，自新西兰开启高难度的跨越太平洋跳岛战术。
+                    </p>
+                    <div class="mt-3 bg-slate-950/60 p-2 rounded border border-slate-800 text-[11px] text-slate-400 font-mono">
+                        📈 跨太平洋长途航段中，机组成功打破窄体机航程天花板，在檀香山、纽约、圣约翰斯连续高强度超常跃飞，并在格陵兰盲切盲降中创下全场最佳纪录！
                     </div>
                 </div>
 
@@ -136,13 +136,13 @@
                 <div class="w-full lg:w-2/5 space-y-4 text-sm leading-relaxed text-slate-300">
                     <div class="border-l-2 border-sky-500 pl-3">
                         <span class="font-mono text-xs text-sky-400 font-bold block mb-1">TRACK CONFIGURATION</span>
-                        <p class="font-bold text-white text-base">全球不间断无缝跃飞流线图</p>
+                        <p class="font-bold text-white text-base">🌐 全球不间断无缝跃飞轨迹总览</p>
                     </div>
                     <p>
-                        右侧图表完整记录了 <span class="text-sky-400 font-mono">CCA0660</span> 从重庆江北（ZUCK）出发，自西向东贯穿东南亚、跨越澳洲荒漠、深入南太平洋群岛，并沿经典窄体机北大西洋轮渡线折返欧洲与中东的<b>完整闭环轨迹</b>。
+                        上方沙盘真实还原了 <span class="text-sky-400 font-mono font-bold">CCA0660</span> 跨越南北半球的宏大闭环。航线完美的串联起亚洲、大洋洲、北美洲、欧洲以及中东。
                     </p>
-                    <p class="bg-slate-950/50 p-3 rounded border border-slate-800 text-xs text-slate-400 font-sans">
-                        💡 <span class="text-amber-400 font-semibold">签派细节提示：</span>观察密集的南太平洋节点，在奥克兰到汤加这一高难度跨度上，通过引入独特的孤岛中转逻辑，成功将原本耗时近3小时的疲劳跨洋，分拆解构为两条仅耗时1小时出头的黄金精致跳岛链。
+                    <p class="bg-slate-950/50 p-3 rounded border border-slate-800 text-xs text-slate-400">
+                        💡 <span class="text-amber-400 font-semibold">硬核签派亮点：</span>在跨越浩瀚的南太平洋时，面对动辄两三千海里的航程阻隔，机组在库克群岛（NCRG）、法阿（NTAA）、卡西迪（PLCH）建立起极为精妙的“孤岛跳岛链”，利用737-800的极限业载与燃油精算，完成了大型宽体机才敢挑战的深蓝飞跃。
                     </p>
                 </div>
 
@@ -158,125 +158,883 @@
 
         <section class="mb-8">
             <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
-                <span class="text-sky-400">03 /</span> 📋 环球航段荣誉全景明细
+                <span class="text-sky-400">03 /</span> 📋 32航段不间断环球荣誉全景明细
             </h2>
             
             <div class="overflow-x-auto rounded-xl border border-slate-700/50 bg-slate-900/30">
-                <table class="w-full text-left border-collapse min-w-[800px]">
-                    <thead>
-                        <tr class="bg-slate-800/70 border-b border-slate-700 font-mono text-xs text-slate-400 tracking-wider">
-                            <th class="p-3.5 text-center w-16">序号</th>
+                <table class="w-full text-left border-collapse min-w-[1000px]">
+                    <thead class="bg-slate-800/90 border-b border-slate-700 font-mono text-xs text-slate-400 tracking-wider">
+                        <tr>
+                            <th class="p-3.5 text-center w-16">Leg</th>
+                            <th class="p-3.5 w-32">航班号 / 机型</th>
                             <th class="p-3.5">出发地 (DEP)</th>
                             <th class="p-3.5">目的地 (ARR)</th>
-                            <th class="p-3.5 text-right">接地率 (FPM)</th>
-                            <th class="p-3.5 text-center">过载 (G)</th>
-                            <th class="p-3.5 pl-6">👨‍✈️ 落地操纵技术评述 (Rich Text Summary)</th>
+                            <th class="p-3.5 text-right w-28">接地率 (FPM)</th>
+                            <th class="p-3.5 text-center w-20">过载 (G)</th>
+                            <th class="p-3.5 text-center w-24">飞行时间</th>
+                            <th class="p-3.5 pl-6">👨‍✈️ 落地操纵评述与航段备忘</th>
                         </tr>
                     </thead>
                     <tbody class="text-sm divide-y divide-slate-800/60 font-mono">
                         
-                        <tr class="bg-sky-950/20 hover:bg-sky-950/30 transition-colors">
-                            <td class="p-3.5 text-center font-bold text-sky-400">#32</td>
-                            <td class="p-3.5 font-sans"><span class="text-white font-semibold">VTCC</span> <span class="text-slate-400 text-xs">清迈</span></td>
-                            <td class="p-3.5 font-sans"><span class="text-sky-400 font-bold">ZUCK</span> <span class="text-sky-300 text-xs">重庆江北</span></td>
-                            <td class="p-3.5 text-right font-bold text-sky-400 neon-text-cyan">-88</td>
-                            <td class="p-3.5 text-center text-sky-300">1.10</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-200">
-                                🏁 <span class="bg-sky-500/20 text-sky-300 text-xs px-1.5 py-0.5 rounded font-mono mr-1">FINAL</span> <b>完美谢幕</b>：跨越云贵高原大雾，熟悉的主场三跑道。在高度紧张的终点线上，以绝妙的软着陆为整趟史诗航线画上完美句号！
-                            </td>
-                        </tr>
-
-                        <tr class="bg-emerald-950/10 hover:bg-slate-800/30 transition-colors">
-                            <td class="p-3.5 text-center text-slate-400">#23</td>
-                            <td class="p-3.5 font-sans"><span class="text-white font-semibold">CYYT</span> <span class="text-slate-400 text-xs">圣约翰斯</span></td>
-                            <td class="p-3.5 font-sans"><span class="text-white font-semibold">BGKK</span> <span class="text-emerald-400 text-xs">库卢苏克</span></td>
-                            <td class="p-3.5 text-right font-bold text-emerald-400 neon-text-cyan">-53</td>
-                            <td class="p-3.5 text-center text-slate-300">1.30</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-300">
-                                🏆 <span class="bg-emerald-500/20 text-emerald-300 text-xs px-1.5 py-0.5 rounded font-mono mr-1">TOP ONE</span> <b>巅峰封神之落</b>：5个半小时窄体机跨洋，面对格陵兰无精密引导的极限悬崖峡湾跑道，顶住低空乱流盲切出全场最轻接地！
-                            </td>
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-sky-400 font-bold">#32</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">VABB <span class="text-slate-400 text-xs">孟买</span></td>
+                            <td class="p-3.5 font-sans"><span class="text-sky-400 font-bold">VTCC</span> <span class="text-sky-300 text-xs">清迈</span></td>
+                            <td class="p-3.5 text-right font-semibold">-128</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">03:56:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🏁 <b>南亚回国前哨</b>：平稳飞越孟加拉湾，清迈山区复杂进近，下滑线维持极佳，教科书式的标称落地。</td>
                         </tr>
 
                         <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#01</td>
-                            <td class="p-3.5 font-sans">ZUCK <span class="text-slate-500 text-xs">重庆江北</span></td>
-                            <td class="p-3.5 font-sans">ZUTF <span class="text-slate-500 text-xs">成都天府</span></td>
-                            <td class="p-3.5 text-right">-181</td>
+                            <td class="p-3.5 text-center text-slate-500">#31</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">OOMS <span class="text-slate-500 text-xs">马斯喀特</span></td>
+                            <td class="p-3.5 font-sans">VABB <span class="text-slate-400 text-xs">孟买</span></td>
+                            <td class="p-3.5 text-right font-semibold">-102</td>
                             <td class="p-3.5 text-center">1.10</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400"><b>中规中矩</b>：首航平稳，标准下滑线建立，轻微拉平修正，扎实落地。</td>
+                            <td class="p-3.5 text-center text-xs">02:22:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">✨ <b>极佳进近</b>：跨越阿拉伯海，孟买海风干扰，无线电高度报数沉稳，极其顺滑地擦起主轮。</td>
                         </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#02</td>
-                            <td class="p-3.5 font-sans">ZUTF <span class="text-slate-500 text-xs">成都天府</span></td>
-                            <td class="p-3.5 font-sans">ZJSY <span class="text-slate-500 text-xs">三亚凤凰</span></td>
-                            <td class="p-3.5 text-right text-emerald-400 font-semibold">-68</td>
-                            <td class="p-3.5 text-center">1.10</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400">✨ <b>丝滑黄油</b>：进近气流极佳，决断高后精准控制拉平段，轻触地盘。</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#07</td>
-                            <td class="p-3.5 font-sans">YPDN <span class="text-slate-500 text-xs">达尔文</span></td>
-                            <td class="p-3.5 font-sans">YAYE <span class="text-slate-500 text-xs">艾尔斯岩</span></td>
-                            <td class="p-3.5 text-right text-rose-400 font-semibold">-518</td>
-                            <td class="p-3.5 text-center">1.40</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-300">
-                                🚨 <span class="text-rose-400 font-bold">风切变强着陆</span>：坚决不追求黄油而引发飘飞，果断砸向跑道确保减速安全。
-                            </td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#09</td>
-                            <td class="p-3.5 font-sans">YPAD <span class="text-slate-500 text-xs">阿德莱德</span></td>
-                            <td class="p-3.5 font-sans">YSSY <span class="text-slate-500 text-xs">悉尼</span></td>
-                            <td class="p-3.5 text-right text-emerald-400 font-semibold">-72</td>
-                            <td class="p-3.5 text-center">1.10</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400">✨ <b>经典黄油</b>：五边目视控速极其细腻，海港桥干扰下高度专注。</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#10</td>
-                            <td class="p-3.5 font-sans">YSSY <span class="text-slate-500 text-xs">悉尼</span></td>
-                            <td class="p-3.5 font-sans">NZWN <span class="text-slate-500 text-xs">惠灵顿</span></td>
-                            <td class="p-3.5 text-right text-amber-500">-347</td>
-                            <td class="p-3.5 text-center">1.50</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400">💨 <b>扎实抗风</b>：风霸跑道流场错综复杂，大下降率果断踩实，严防水滑。</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#22</td>
-                            <td class="p-3.5 font-sans">KJFK <span class="text-slate-500 text-xs">纽约肯尼迪</span></td>
-                            <td class="p-3.5 font-sans">CYYT <span class="text-slate-500 text-xs">圣约翰斯</span></td>
-                            <td class="p-3.5 text-right text-emerald-400 font-semibold">-89</td>
-                            <td class="p-3.5 text-center">1.10</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400">✨ <b>极佳黄油</b>：多云低能见度天气顺利切出，拉平手法极其柔和。</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#28</td>
-                            <td class="p-3.5 font-sans">LTAI <span class="text-slate-500 text-xs">安塔利亚</span></td>
-                            <td class="p-3.5 font-sans">OMDB <span class="text-slate-500 text-xs">迪拜</span></td>
-                            <td class="p-3.5 text-right">-112</td>
-                            <td class="p-3.5 text-center">1.10</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400"><b>低能见度稳落</b>：ILS截获极其完美，决断高度后冲破沙尘顺利靠陆。</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
-                            <td class="p-3.5 text-center text-slate-500">#29</td>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-amber-950/10">
+                            <td class="p-3.5 text-center text-slate-500">#30</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
                             <td class="p-3.5 font-sans">OMDB <span class="text-slate-500 text-xs">迪拜</span></td>
                             <td class="p-3.5 font-sans">OOMS <span class="text-slate-500 text-xs">马斯喀特</span></td>
-                            <td class="p-3.5 text-right text-amber-500">-321</td>
+                            <td class="p-3.5 text-right text-amber-500 font-semibold">-321</td>
                             <td class="p-3.5 text-center">1.30</td>
-                            <td class="p-3.5 pl-6 font-sans text-slate-400"><b>节奏脱节</b>：40分钟短途跃飞仓促，下滑率未能在拉平段有效收住。</td>
+                            <td class="p-3.5 text-center text-xs">00:42:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">💨 <b>节奏仓促</b>：超短途跨国跃飞，五边下沉率配平未能在拉平段及时收住，略带下沉扎实接地。</td>
                         </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#29</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">LTAI <span class="text-slate-500 text-xs">安塔利亚</span></td>
+                            <td class="p-3.5 font-sans">OMDB <span class="text-slate-400 text-xs">迪拜</span></td>
+                            <td class="p-3.5 text-right font-semibold">-112</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">04:22:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🌴 <b>重返中东</b>：飞越波斯湾，迪拜大雾低能见度，严格参照仪表ILS盲降建立，完美冲出迷雾。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#28</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">LSZH <span class="text-slate-500 text-xs">苏黎世</span></td>
+                            <td class="p-3.5 font-sans">LTAI <span class="text-slate-400 text-xs">安塔利亚</span></td>
+                            <td class="p-3.5 text-right font-semibold">-112</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">02:41:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🏖️ <b>横跨欧亚</b>：飞越阿尔卑斯山区与地中海，安塔利亚阳光刺眼，修正视觉差后精妙落地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#27</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">EGLL <span class="text-slate-500 text-xs">伦敦希思罗</span></td>
+                            <td class="p-3.5 font-sans">LSZH <span class="text-slate-400 text-xs">苏黎世</span></td>
+                            <td class="p-3.5 text-right font-semibold text-emerald-400">-67</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">01:13:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">✨ <b>欧陆超级黄油</b>：伦敦出港后遭遇欧陆复杂空域管制限速，五边目视控速极其细腻，轻触地面。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-slate-950/40">
+                            <td class="p-3.5 text-center text-slate-500">#26</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">BIKF <span class="text-slate-500 text-xs">凯夫拉维克</span></td>
+                            <td class="p-3.5 font-sans">EGLL <span class="text-slate-400 text-xs">伦敦希思罗</span></td>
+                            <td class="p-3.5 text-right font-semibold">-228</td>
+                            <td class="p-3.5 text-center">1.30</td>
+                            <td class="p-3.5 text-center text-xs">02:26:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🇬🇧 <b>重返繁华欧陆</b>：繁忙的希思罗大流量进近，强侧风修正，机头方向死死锁住中线。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#25</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">BGKK <span class="text-slate-500 text-xs">库卢苏克</span></td>
+                            <td class="p-3.5 font-sans">BIKF <span class="text-slate-400 text-xs">凯夫拉维克</span></td>
+                            <td class="p-3.5 text-right font-semibold">-192</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">01:11:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🌋 <b>冰火之国</b>：冰岛北大西洋渡轮线硬核航段，高纬度磁罗盘抖动，依靠惯导完美切入冰川跑道。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-sky-300 bg-emerald-950/20">
+                            <td class="p-3.5 text-center text-emerald-400 font-bold">#24</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">CYYT <span class="text-slate-400 text-xs">圣约翰斯</span></td>
+                            <td class="p-3.5 font-sans"><span class="text-emerald-400 font-bold">BGKK</span> <span class="text-emerald-300 text-xs">库卢苏克</span></td>
+                            <td class="p-3.5 text-right font-bold text-emerald-400 neon-text-cyan">-53</td>
+                            <td class="p-3.5 text-center text-emerald-300">1.30</td>
+                            <td class="p-3.5 text-center text-xs">05:44:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-200">🏆 <b>全场总冠军·巅峰封神</b>：5个半小时窄体客机跨洋，格陵兰无精密引导的非精密进近悬崖跑道，极地低空乱流盲切出史诗级轻触！</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#23</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">KJFK <span class="text-slate-500 text-xs">纽约肯尼迪</span></td>
+                            <td class="p-3.5 font-sans">CYYT <span class="text-slate-400 text-xs">圣约翰斯</span></td>
+                            <td class="p-3.5 text-right font-semibold text-emerald-400">-89</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">02:37:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🍁 <b>踏足枫叶国</b>：纽芬兰海岛大雾，低能见度进近，极度温柔的拉平手法，顺利落座。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-slate-950/40">
+                            <td class="p-3.5 text-center text-slate-500">#22</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">KDEN <span class="text-slate-500 text-xs">丹佛</span></td>
+                            <td class="p-3.5 font-sans">KJFK <span class="text-slate-400 text-xs">纽约肯尼迪</span></td>
+                            <td class="p-3.5 text-right font-semibold">-240</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">03:37:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🗽 <b>横跨北美东海岸</b>：肯尼迪机场密集进近队列，严格遵照航路空速，重落地扎实减速。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#21</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">KLAX <span class="text-slate-500 text-xs">洛杉矶</span></td>
+                            <td class="p-3.5 font-sans">KDEN <span class="text-slate-400 text-xs">丹佛</span></td>
+                            <td class="p-3.5 text-right font-semibold">-236</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">01:48:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🏔️ <b>高原挑战</b>：丹佛高海拔机场造成空速与地速差异明显，气流颠簸，果断扣地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-slate-950/40">
+                            <td class="p-3.5 text-center text-slate-500">#20</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">PHNL <span class="text-slate-500 text-xs">檀香山</span></td>
+                            <td class="p-3.5 font-sans">KLAX <span class="text-slate-400 text-xs">洛杉矶</span></td>
+                            <td class="p-3.5 text-right font-semibold">-285</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">05:12:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🌆 <b>征服美洲大陆首航</b>：极限5小时跨太平洋航线，燃油精算吃紧，大雾天气重落触地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-amber-950/10">
+                            <td class="p-3.5 text-center text-slate-500">#19</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">PLCH <span class="text-slate-500 text-xs">圣诞岛</span></td>
+                            <td class="p-3.5 font-sans">PHNL <span class="text-slate-400 text-xs">檀香山</span></td>
+                            <td class="p-3.5 text-right text-amber-400 font-semibold">-376</td>
+                            <td class="p-3.5 text-center">1.30</td>
+                            <td class="p-3.5 text-center text-xs">02:05:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🌴 <b>北上夏威夷</b>：突发强烈低空阵风顶托，决断高度略有飘飞，压低机头防止重飞，重力刹车。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#18</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">NTAA <span class="text-slate-500 text-xs">法阿</span></td>
+                            <td class="p-3.5 font-sans">PLCH <span class="text-slate-400 text-xs">圣诞岛</span></td>
+                            <td class="p-3.5 text-right font-semibold">-142</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">03:05:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🌊 <b>跨越赤道线</b>：深入南太平洋核心孤岛，周围无任何备降场，孤注一掷平稳靠陆。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#17</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">NCRG <span class="text-slate-500 text-xs">拉罗汤加</span></td>
+                            <td class="p-3.5 font-sans">NTAA <span class="text-slate-400 text-xs">法阿</span></td>
+                            <td class="p-3.5 text-right font-semibold">-168</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">01:44:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🍹 <span class="text-teal-400 font-bold">大溪地风情</span>：蓝天白云目视盲降，海岛侧风轻微，拉平修反一气呵成。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#16</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">NSFA <span class="text-slate-500 text-xs">法莱奥洛</span></td>
+                            <td class="p-3.5 font-sans">NCRG <span class="text-slate-400 text-xs">拉罗汤加</span></td>
+                            <td class="p-3.5 text-right font-semibold">-187</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">02:03:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🗿 <b>绝美跳岛链</b>：标准的短跑道短程跃飞，建立两浬稳定截获，顺畅接地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-amber-950/10">
+                            <td class="p-3.5 text-center text-slate-500">#15</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">NFTF <span class="text-slate-500 text-xs">富阿阿莫图</span></td>
+                            <td class="p-3.5 font-sans">NSFA <span class="text-slate-400 text-xs">法莱奥洛</span></td>
+                            <td class="p-3.5 text-right text-amber-500 font-semibold">-297</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">01:21:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">⛈️ <b>积雨云穿梭</b>：南太平洋低空雷雨强烈区，重度颠簸下果断硬扎接地锁住控制权。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#14</td>
+                            <td class="p-3.5 text-xs">CHH6666<br><span class="text-slate-500">B738(B-O66O)</span></td>
+                            <td class="p-3.5 font-sans">NZAA <span class="text-slate-500 text-xs">奥克兰</span></td>
+                            <td class="p-3.5 font-sans">NFTF <span class="text-slate-400 text-xs">富阿阿莫图</span></td>
+                            <td class="p-3.5 text-right font-semibold">-173</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">02:36:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🇳🇿 <b>告别新西兰</b>：出港大角度爬升，航路上云层密布，进近阶段姿态稳定。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#13</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">NZQN <span class="text-slate-500 text-xs">皇后镇</span></td>
+                            <td class="p-3.5 font-sans">NZAA <span class="text-slate-400 text-xs">奥克兰</span></td>
+                            <td class="p-3.5 text-right font-semibold">-156</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">01:27:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🥝 <b>东航机队完美收官</b>：新西兰南北岛南北纵贯穿，标称姿态在奥克兰温柔降落。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#12</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">NZWN <span class="text-slate-500 text-xs">惠灵顿</span></td>
+                            <td class="p-3.5 font-sans">NZQN <span class="text-slate-400 text-xs">皇后镇</span></td>
+                            <td class="p-3.5 text-right font-semibold">-287</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">01:04:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🏔️ <b>峡湾大惊魂</b>：皇后镇盆地环绕地貌，盲切峡湾五边，气流极其恶劣，扎实落地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-amber-950/10">
+                            <td class="p-3.5 text-center text-slate-500">#11</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">YSSY <span class="text-slate-500 text-xs">悉尼</span></td>
+                            <td class="p-3.5 font-sans">NZWN <span class="text-amber-400 font-bold">惠灵顿</span></td>
+                            <td class="p-3.5 text-right text-amber-400 font-semibold">-347</td>
+                            <td class="p-3.5 text-center">1.50</td>
+                            <td class="p-3.5 text-center text-xs">02:50:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">💨 <b>风霸大考验</b>：塔斯曼海大跨度跨洋后遭遇风霸临海强劲侧风，大下降率硬踩防滑。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#10</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">YPAD <span class="text-slate-500 text-xs">阿德莱德</span></td>
+                            <td class="p-3.5 font-sans">YSSY <span class="text-emerald-400 font-bold">悉尼</span></td>
+                            <td class="p-3.5 text-right font-bold text-emerald-400 neon-text-cyan">-72</td>
+                            <td class="p-3.5 text-center text-sky-300">1.10</td>
+                            <td class="p-3.5 text-center text-xs">01:33:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-300">✨ <b>经典主场黄油</b>：海港大桥强烈视觉干扰下，五边目视控速细入微，打出华丽的极轻触地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-slate-950/40">
+                            <td class="p-3.5 text-center text-slate-500">#09</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">YAYE <span class="text-slate-500 text-xs">艾尔斯岩</span></td>
+                            <td class="p-3.5 font-sans">YPAD <span class="text-slate-400 text-xs">阿德莱德</span></td>
+                            <td class="p-3.5 text-right font-semibold">-137</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">01:41:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🦘 <b>重回澳洲海岸线</b>：飞出红色荒漠深处，阿德莱德进近气流柔和，完美拦截盲降。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-rose-950/20">
+                            <td class="p-3.5 text-center text-rose-400 font-bold">#08</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">YPDN <span class="text-slate-500 text-xs">达尔文</span></td>
+                            <td class="p-3.5 font-sans">YAYE <span class="text-rose-400 font-bold">艾尔斯岩</span></td>
+                            <td class="p-3.5 text-right font-bold text-rose-400">-518</td>
+                            <td class="p-3.5 text-center text-rose-300">1.40</td>
+                            <td class="p-3.5 text-center text-xs">02:08:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-300">🚨 <b>红岩强切严重超标记录</b>：内陆红土巨岩极端干热上升气流与风切变夹击，果断重力强砸落地！</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-slate-950/40">
+                            <td class="p-3.5 text-center text-slate-500">#07</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">WADD <span class="text-slate-500 text-xs">巴厘岛</span></td>
+                            <td class="p-3.5 font-sans">YPDN <span class="text-slate-400 text-xs">达尔文</span></td>
+                            <td class="p-3.5 text-right font-semibold">-241</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">02:21:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🇦🇺 <b>正式踏入澳洲大门</b>：飞越帝汶海，遭遇热带低压外围风带。气流不稳导致进近修正频繁，安全落地.</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#06</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">WSSS <span class="text-slate-500 text-xs">新加坡樟宜</span></td>
+                            <td class="p-3.5 font-sans">WADD <span class="text-slate-400 text-xs">巴厘岛</span></td>
+                            <td class="p-3.5 text-right font-semibold">-145</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">02:22:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🥥 <b>赤道大度假</b>：巴厘岛五边海风修正，滑跑段极为稳当，轻柔刹车。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#05</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">VTBS <span class="text-slate-500 text-xs">曼谷素万那普</span></td>
+                            <td class="p-3.5 font-sans">WSSS <span class="text-slate-400 text-xs">新加坡樟宜</span></td>
+                            <td class="p-3.5 text-right font-semibold">-194</td>
+                            <td class="p-3.5 text-center">1.20</td>
+                            <td class="p-3.5 text-center text-xs">02:18:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🇸🇬 <b>东南亚枢纽跃飞</b>：马六甲海峡大流量进近限制，标准下滑线建立，稳步吸附于跑道。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#04</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">ZJSY <span class="text-slate-500 text-xs">三亚凤凰</span></td>
+                            <td class="p-3.5 font-sans">VTBS <span class="text-slate-400 text-xs">曼谷素万那普</span></td>
+                            <td class="p-3.5 text-right font-semibold">-209</td>
+                            <td class="p-3.5 text-center">1.30</td>
+                            <td class="p-3.5 text-center text-xs">01:58:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🇹🇭 <b>走出国门首飞</b>：穿越南海强对流残余云带，素万那普重落地，刹车极度干脆。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300 bg-emerald-950/10">
+                            <td class="p-3.5 text-center text-slate-500">#03</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">ZUTF <span class="text-slate-500 text-xs">成都天府</span></td>
+                            <td class="p-3.5 font-sans"><span class="text-emerald-400 font-bold">ZJSY</span> <span class="text-emerald-300 text-xs">三亚凤凰</span></td>
+                            <td class="p-3.5 text-right font-bold text-emerald-400">-68</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">02:06:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-300">✨ <span class="text-emerald-400 font-bold">国内最美黄油</span>：海滨跑道低空视野宽广，决断高后收油门时机妙到毫巅，悄无声息。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-slate-300">
+                            <td class="p-3.5 text-center text-slate-500">#02</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">ZUCK <span class="text-slate-500 text-xs">重庆江北</span></td>
+                            <td class="p-3.5 font-sans">ZUTF <span class="text-slate-400 text-xs">成都天府</span></td>
+                            <td class="p-3.5 text-right font-semibold">-181</td>
+                            <td class="p-3.5 text-center">1.10</td>
+                            <td class="p-3.5 text-center text-xs">00:48:00</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-slate-400">🐼 <b>川渝成渝短途快线</b>：首航平稳，双流与天府空域过渡平顺，标准流程落地。</td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-800/30 transition-colors text-sky-400 font-semibold bg-sky-950/20">
+                            <td class="p-3.5 text-center">#01</td>
+                            <td class="p-3.5 text-xs">CES6666<br><span class="text-slate-500">B738(B-A66A)</span></td>
+                            <td class="p-3.5 font-sans">ZUCK <span class="text-slate-400 text-xs">重庆江北</span></td>
+                            <td class="p-3.5 font-sans">ZUCK <span class="text-sky-300 text-xs">基地始发线</span></td>
+                            <td class="p-3.5 text-right">--</td>
+                            <td class="p-3.5 text-center">--</td>
+                            <td class="p-3.5 text-center text-xs">--</td>
+                            <td class="p-3.5 pl-6 font-sans text-xs text-sky-300">🚀 <b>史诗远征鸣枪</b>：CCA0660 全球环球任务自重庆江北基地大库正式滑出，冷舱启动！</td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
-            
-            <div class="text-right text-xs text-slate-500 font-mono mt-2">* 提示：此表仅抽样归档核心高光及硬核复盘航段。</div>
+            <div class="text-right text-xs text-slate-500 font-mono mt-2">* 提示：数据完美拉取自公网飞行网卡，包含完整的 32 航段闭环信息。</div>
         </section>
 
-        <footer class="bg-slate-900/60 p-4 md:p-6 rounded-xl border border-slate-800 text-center relative overflow-hidden">
-            <div class="absolute top-0 right-0 p-1 text-[8px] font-mono text-slate-700 select-none">SYSTEM_STATUS: DEACTIVATED</div>
-            <p class="text-sm text-slate-300 font-sans leading-relaxed">
-                这是一次将 <span class="text-sky-400 font-semibold">极客精神</span> 与 <span class="text-amber-400 font-semibold">硬核手操操纵技术</span> 完美融合的全球大满贯航线。在完全依赖单架窄体客机的情况下，0660 机长凭借精密复杂的飞行签派以及极高上限的五边操纵底蕴，顺利征服大洋阻隔与极地风暴。
-            </p>
-            <div class="mt-4 font-mono text-xs text-sky-400/80 uppercase tracking-widest neon-text-cyan">
-                —— CCA0660 环球机组正式解散 · 荣耀凯旋归巢 ——
+        <section class="mb-8">
+            <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
+                <span class="text-sky-400">04 /</span> 📸 环球远征·机组珍贵影像纪实
+            </h2>
+            <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+                
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184353.png?dslCesiV9w" alt="Flight Image 1" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-01</span>
+                        <span class="text-sky-400/70 font-semibold">江北冷舱</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184428.png?niqxSFP3Kh" alt="Flight Image 2" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-03</span>
+                        <span class="text-emerald-400/70 font-semibold">南海大跨越</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184451.png?ibugvIOI0s" alt="Flight Image 3" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-06</span>
+                        <span class="text-sky-400/70 font-semibold">穿越赤道</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184510.png?BDMjKY7lyX" alt="Flight Image 4" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-08</span>
+                        <span class="text-rose-400/70 font-semibold">澳洲内陆红岩</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184521.png?jYBEr5WBB3" alt="Flight Image 5" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-12</span>
+                        <span class="text-amber-400/70 font-semibold">皇后镇盲切</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184551.png?Cr0du5T0nV" alt="Flight Image 6" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-15</span>
+                        <span class="text-sky-400/70 font-semibold">雷雨积雨云</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184615.png?SpKKuufwyu" alt="Flight Image 7" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-18</span>
+                        <span class="text-teal-400/70 font-semibold">深蓝跳岛链</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184646.png?1VtphfhE5b" alt="Flight Image 8" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-20</span>
+                        <span class="text-sky-400/70 font-semibold">夏威夷跨太平洋</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184707.png?rIF4ASs2zt" alt="Flight Image 9" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-24</span>
+                        <span class="text-emerald-400/70 font-semibold">库卢苏克盲降</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184731.png?s9MXpXn9ni" alt="Flight Image 10" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-26</span>
+                        <span class="text-sky-400/70 font-semibold">希思罗进近</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184742.png?jMWxKBWE59" alt="Flight Image 11" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-29</span>
+                        <span class="text-amber-400/70 font-semibold">迪拜大雾进近</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184809.png?zmJ6vA7YDj" alt="Flight Image 12" />
+                    <div class="mt-2 px-1 pb-1 font-mono text-[11px] text-slate-400 flex justify-between items-center group-hover:text-slate-300">
+                        <span>🛰️ GAL LOG // #STAGE-32</span>
+                        <span class="text-sky-400/70 font-semibold">终点回归清迈</span>
+                    </div>
+                </div>
+
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184817.png?cctV1y0I5c" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184826.png?eqdSC2tkfs" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184831.png?Bj04rXaOzt" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184844.png?2Ra6WTHcLP" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184859.png?zKKoug2PiE" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184912.png?65yHR8awV0" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184923.png?q9AvPP7u2I" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711184937.png?yHXBbeShHg" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185001.png?88paI9kq4K" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185109.png?3jH6sT8Z8E" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185138.png?2xnCQMCh4A" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185145.png?DRueAUsa9W" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185157.png?9796Ygvwxk" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185214.png?SecYJOp6PH" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185227.png?UNpEuAutEm" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185255.png?4dcAO3t5Pm" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185313.png?CrWnv0VDyC" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185336.png?uo8Ugjt5p4" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185351.png?K3z9QLuFS8" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185429.png?5e10FeFNSR" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185407.png?dyO21WjojZ" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185442.png?YhaaJ3rUO1" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185454.png?nDqZilkdBw" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185506.png?bqYdx2aGGN" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185525.png?ihEVI6fI9t" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185535.png?WP5M6rj0gZ" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185549.png?o1n2hsRMej" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185601.png?g03D8KrMMA" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185613.png?421rY0TV7g" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185626.png?XyGBqWlUbm" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185643.png?bWmMrrIH12" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185704.png?sURqwbt2bA" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185724.png?BMbXFuqXml" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185749.png?eCfr0M8FxY" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185802.png?dpz2DLrGYf" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185810.png?72OnRx2HyS" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185820.png?xGem6RZZyH" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185833.png?F8tJaBtlpW" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185848.png?K6EvwNLXq2" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185901.png?QjYDbGyuMy" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185911.png?Hj9UzfnWAO" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185929.png?qcQyMjYpbr" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185936.png?idmhUs2ZNu" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711185953.png?FJvivXh1nT" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190108.png?djgN3bYBC1" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190113.png?wSw3NGJUxh" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190120.png?GL9AkIEeLP" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190134.png?31X70SptGg" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190202.png?U67XmXo52X" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190218.png?Z03BJYa66U" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190224.png?Jjp5PwxKCH" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190233.png?k8W9arlbxo" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190241.png?yCS0uqTlQp" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190251.png?6xu71qBuXA" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190303.png?OOoriT6eTh" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190327.png?aO5fxvENN1" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190352.png?kJcbylXzOA" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190438.png?9paNb3gm7g" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190504.png?lU7zYdecW9" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190517.png?8fvIL7wQBk" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190524.png?y2c29F42XL" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190533.png?OClP1LUqkm" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190545.png?wJ7Gu8tpE4" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190552.png?QNywnvkqit" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190601.png?0MmK6HdNJL" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190608.png?tjUDqE38op" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190614.png?9OdQqSOnhL" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190623.png?1qFMrwFDJ4" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190628.png?6rM7bUsnFB" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190657.png?NMBdlUGVCa" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190705.png?3PPUyoX3Yk" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190747.png?m0GhyUIHiI" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190806.png?v2XQsiWIn5" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190817.png?tyw5r6hhLb" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190829.png?1rjC5L76A4" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190836.png?bcQ70M8qnp" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190906.png?ggDek6xfU3" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190926.png?NBf5Ekq2J6" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190939.png?SbnovRQyQW" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190947.png?Ka5vDQ42ii" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711190953.png?ni35kgl0bZ" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191001.png?fJ1aXplIVy" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191013.png?onj1KhiZmt" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191021.png?TJmJ5pMQQU" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191029.png?xIeLmj1BOM" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191039.png?lmqHMQl1RS" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191059.png?f6vCUBUYsf" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191128.png?kOi6WjywYt" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191138.png?vzAEv9xnOT" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191149.png?QJqR0XYchI" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191210.png?XAWTb53eoL" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191234.png?RXkPVkQt6a" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191241.png?n9eJM8d45M" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191251.png?8tVNJyQKeZ" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191305.png?tVMPGQuAKz" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191312.png?HkfcqZupTY" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191326.png?CPjsowJhOK" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191333.png?uuJTbzgYwy" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191344.png?cVpVlIZVMd" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191436.png?KRcVtQfWBi" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191403.png?mywCMMFvq5" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191448.png?gJYMeTnw4h" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191506.png?p5FDqHlc0x" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191517.png?DhvIRmEDjQ" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191528.png?k4uZ2mlQh1" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191538.png?kBqWOcHifb" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191549.png?sh2myPiZ31" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191602.png?aNQaUT2Du0" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191617.png?ArlCjo9xwr" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191628.png?iXjPBh6Iw0" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191637.png?FHetiRTEB2" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191645.png?fjvezgNakD" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191659.png?Cx69WJHb3W" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191706.png?qy5xI8Do3T" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191711.png?6gi12Y5cQ5" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191729.png?iigDcc9ARL" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191737.png?6kUopb6mzZ" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191747.png?oAy7bdAXCj" loading="lazy" alt="Flight Archive Image" />
+                </div>
+                <div class="break-inside-avoid bg-slate-900/60 rounded-xl p-2 border border-slate-800/80 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-[0_10px_20px_rgba(56,189,248,0.15)] group">
+                    <img class="w-full h-auto rounded-lg select-none" src="https://imageapi.tangxuan.fun:9000/storage/uploads/202607/11/Pasted%20image%2020260711191846.png?kYzLiJtXPv" loading="lazy" alt="Flight Archive Image" />
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 p-6 md:p-8 rounded-xl border border-slate-800 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-1 text-[8px] font-mono text-slate-700 select-none">SYSTEM_STATUS: MISSION_ACCOMPLISHED</div>
+ 
+<section class="mb-8">
+            <h2 class="text-lg font-semibold text-white mb-4 flex items-center gap-2 font-mono">
+                <span class="text-sky-400">05 /</span> 🎬 终点着陆实况录像
+            </h2>
+            <div class="aspect-video w-full neon-glow rounded-xl overflow-hidden border border-slate-700/50">
+                <iframe 
+                    src="https://player.bilibili.com/player.html?bvid=BV1U6Nc6aEW3&page=1&high_quality=1&danmaku=0" 
+                    scrolling="no" 
+                    border="0" 
+                    frameborder="no" 
+                    framespacing="0" 
+                    allowfullscreen="true" 
+                    class="w-full h-full">
+                </iframe>
+            </div>
+        </section>
+		
+            <h3 class="text-center font-bold text-white text-base md:text-lg mb-4 flex items-center justify-center gap-2">
+                🏆 0660 机长·全景终期凯旋总结
+            </h3>
+            
+            <div class="text-sm text-slate-300 font-sans leading-relaxed space-y-4 max-w-4xl mx-auto">
+                <p>
+                    这是一次将 <span class="text-sky-400 font-semibold neon-text-cyan">现代硬核航空极客精神</span> 与 <span class="text-amber-400 font-semibold">波音精细手操操纵技术</span> 完美缝合的全球大满贯壮举！🧭 在历时数十天、完全跨越三大洋、南北半球长途跋涉的极端试炼中，机组凭借极具上限的模拟执飞功底，成功征服了极地大雾、南太平洋热带风暴、北大西洋复杂磁罗盘抖动以及高海拔高原稀薄空气。
+                </p>
+                <p>
+                    从大洋洲著名的<b>“惠灵顿风霸机场 (-347 FPM)”</b>大下降率硬砸一脚踩实防止水滑，再到格陵兰荒漠峡湾中盲切盲降拉出的<b>全场最轻黄油 (-53 FPM)</b> 封神神迹——这一串串硬核的接地数据，无一不在彰显着机长在决断高度（Decision Altitude）下对侧风修正、拉平手法、地效气流的恐怖洞察力！💾
+                </p>
+                <p>
+                    单架窄体客机，四海为家。我们通过精妙的“孤岛跳岛签派逻辑”，成功解构了深蓝跨洋疲劳，将冰冷枯燥的代码转化为了这套高度视觉化的终期报告。这不仅是一张写满荣誉的飞行记录，更是专属于民航模拟飞行领域的至高勋章！🎖️
+                </p>
+            </div>
+            
+            <div class="mt-6 text-center font-mono text-xs text-sky-400 uppercase tracking-widest neon-text-cyan animate-pulse">
+                —— ⚡ CCA0660 全球机组圆满解散 · 荣耀凯旋归巣 ⚡ ——
             </div>
         </footer>
 
